@@ -439,7 +439,7 @@ body{
 }
   
 .grid-item {
-    width: 90%;
+    width: 100%;
     background-color: #fff;
     border-radius: 0.4rem;
     overflow: hidden;
