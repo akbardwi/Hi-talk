@@ -265,15 +265,42 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lgx-registration-form-box lgx-registration-banner-box"> <!--lgx-registration-banner-box-->
+                            <?php
+                            $inputs = session()->getFlashdata('inputs');
+                            $error = session()->getFlashdata('error');
+                            $errors = session()->getFlashdata('errors');
+                            $success = session()->getFlashdata('success');
+                            if(!empty($errors)){ ?>
+                            <div class="alert alert-danger" role="alert">
+                                <ul>
+                                <?php foreach ($errors as $errors) : ?>
+                                    <li><?= esc($errors) ?></li>
+                                <?php endforeach ?>
+                                </ul>
+                            </div>
+                            <br />
+                            <?php } if(!empty($error)){ ?>
+                            <div class="alert alert-danger" role="alert">
+                                <ul>
+                                    <li><?= esc($error) ?></li>
+                                </ul>
+                            </div>
+                            <br />
+                            <?php } if(!empty($success)){ ?>
+                                <div class="alert alert-success" role="alert">
+                                    <?= esc($success) ?><br />
+                                </div>
+                                <br />
+                            <?php } ?>
                             <div class="lgx-registration-form">
-                                <form action="<?= base_url();?>" method="post">
+                                <form action="<?= base_url("home/registration");?>" method="post">
                                     <?= csrf_field(); ?>
-                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Your Full Name" type="text">
-                                    <input name="email" class="wpcf7-form-control form-control" placeholder="Your E-mail" type="email">
-                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Your Institution" type="text">
-                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Mobile Number/WhatsApp" type="number">
+                                    <input name="nama" class="wpcf7-form-control form-control" placeholder="Your Full Name" type="text" required>
+                                    <input name="email" class="wpcf7-form-control form-control" placeholder="Your E-mail" type="email" required>
+                                    <input name="institution" class="wpcf7-form-control form-control" placeholder="Your Institution" type="text" required>
+                                    <input name="hp" class="wpcf7-form-control form-control" placeholder="Mobile Number/WhatsApp" type="number" required>
                                     <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
-                                    </form>
+                                </form>
                             </div>
                         </div>
                     </div>

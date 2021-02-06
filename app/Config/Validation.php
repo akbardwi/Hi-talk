@@ -40,4 +40,48 @@ class Validation
 	//--------------------------------------------------------------------
 	// Rules
 	//--------------------------------------------------------------------
+
+	//Validasi Login Admin
+	public $login = [
+		'username' => 'required',
+		'password' => 'required'
+	];	 
+	public $login_errors = [
+		'username' => [
+			'required'      => 'Username wajib diisi'
+		],
+		'password' => [
+			'required'      => 'Password wajib diisi'
+		]
+	];
+	
+	//Validasi Daftar LCC
+	public $peserta = [
+		'nama' 		=> 'required',
+		'instansi'	=> 'required',
+		'email'		=> [
+			'required',
+			'valid_email'
+		],
+		'hp'		=> [
+			'required',
+			'is_natural'
+		]
+	];	 
+	public $peserta_errors = [
+		'nama' 		=> [
+			'required'      => 'Nama wajib diisi'
+		],
+		'instansi' 	=> [
+			'required'      => 'Instansi wajib diisi'
+		],
+		'email'		=> [
+			'required'		=> 'Email wajib diisi',
+			'valid_email'	=> 'Masukkan Email yang valid'
+		],
+		'hp'		=> [
+			'required'		=> 'No. HP wajib diisi',
+			'is_natural'	=> 'No. HP hanya bisa diisi bilangan bulat'
+		]
+	];
 }
