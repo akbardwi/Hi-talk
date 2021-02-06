@@ -13,52 +13,49 @@
     <meta name="author" content="hmtiudinus.org"/>
 
     <!--  FAVICON AND TOUCH ICONS -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/img/favicon.ico"/>
     <!-- this icon shows in browser toolbar -->
-    <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/> -->
+    <!-- <link rel="icon" type="image/x-icon" href="<?= base_url(); ?>/assets/img/favicon.ico"/> -->
     <!-- this icon shows in browser toolbar -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url(); ?>/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?= base_url(); ?>/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url(); ?>/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?= base_url(); ?>/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url(); ?>/assets/img/favicon/favicon-16x16.png">
 
 
     <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css" media="all"/>
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/bootstrap/css/bootstrap.min.css" media="all"/>
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all"/>
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/fontawesome/css/font-awesome.min.css" media="all"/>
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all"/>
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/maginificpopup/magnific-popup.css" media="all"/>
 
     <!-- Time Circle -->
-    <link rel="stylesheet" href="assets/libs/timer/TimeCircles.css" media="all"/>
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/timer/TimeCircles.css" media="all"/>
 
     <!-- OWL CAROUSEL CSS -->
-    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
-    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cPoppins:300,400,400i,600,600i,700,800,900"/>
 
     <!-- MASTER  STYLESHEET  -->
-    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all"/>
+    <link id="lgx-master-style" rel="stylesheet" href="<?= base_url(); ?>/assets/css/style-default.min.css" media="all"/>
 
     <!-- MODERNIZER CSS  -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-    <!-- Desain Form -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="<?= base_url(); ?>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body class="home">
@@ -87,7 +84,7 @@
                         </button>
                         <!-- <div class="lgx-logo">
                             <a href="index-2.html" class="lgx-scroll">
-                                <img src="assets/img/logo.png" alt="Emeet Logo"/>
+                                <img src="<?= base_url(); ?>/assets/img/logo.png" alt="Emeet Logo"/>
                             </a>
                         </div> -->
                     </div>
@@ -177,7 +174,7 @@
                     </div>
                     <div class="col-sm-12 col-md-5">
                         <div class="lgx-about-img-sp">
-                            <img src="assets/img/poster.jpeg" alt="poster">
+                            <img src="<?= base_url(); ?>/assets/img/poster.jpeg" alt="poster">
                         </div>
                     </div>
                 </div>
@@ -206,7 +203,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img" href="speakers.html"><img src="assets/img/speakers/speaker1.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker1.jpg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
                                         <h3 class="title">Fathil Arham</h3>
@@ -219,7 +216,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img" href="speakers.html"><img src="assets/img/speakers/speaker2.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker2.jpg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
                                         <h3 class="title">Farah L Oktarina</h3>
@@ -232,7 +229,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img" href="speakers.html"><img src="assets/img/speakers/speaker3.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker3.jpg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
                                         <h3 class="title">Rosa Paramitha</h3>
@@ -269,15 +266,14 @@
                     <div class="col-xs-12">
                         <div class="lgx-registration-form-box lgx-registration-banner-box"> <!--lgx-registration-banner-box-->
                             <div class="lgx-registration-form">
-                                <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Your Name ..." type="text">
-                                <input name="email" value="" class="wpcf7-form-control form-control" placeholder="Your E-mail ..." type="email">
-                                <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Mobile Number ..." type="text">
-                                <select name="your-browser" class="wpcf7-form-control wpcf7-select lgx-select">
-                                    <option value="Personal - $39">Personal - $39</option>
-                                    <option value="Business - $89">Business - $89</option>
-                                    <option value="Premium - $189">Premium - $189</option>
-                                </select>
-                                <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
+                                <form action="<?= base_url();?>" method="post">
+                                    <?= csrf_field(); ?>
+                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Your Full Name" type="text">
+                                    <input name="email" class="wpcf7-form-control form-control" placeholder="Your E-mail" type="email">
+                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Your Institution" type="text">
+                                    <input name="text" class="wpcf7-form-control form-control" placeholder="Mobile Number/WhatsApp" type="number">
+                                    <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
+                                    </form>
                             </div>
                         </div>
                     </div>
@@ -297,7 +293,7 @@
             <div class="container">
                 <div class="lgx-footer-area">
                     <!-- <div class="lgx-footer-single">
-                        <a class="logo" href="index-2.html"><img src="assets/img/footer-logo.png" alt="Logo"></a>
+                        <a class="logo" href="index-2.html"><img src="<?= base_url(); ?>/assets/img/footer-logo.png" alt="Logo"></a>
                     </div>  -->
                     <!--//footer-area-->
                     <div class="lgx-footer-single">
@@ -342,53 +338,53 @@
 <!--//.LGX SITE CONTAINER-->
 <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
 <!-- JQUERY  -->
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="<?= base_url(); ?>/assets/js/vendor/jquery-1.12.4.min.js"></script>
 
 <!-- BOOTSTRAP JS  -->
-<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Smooth Scroll  -->
-<script src="assets/libs/jquery.smooth-scroll.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/jquery.smooth-scroll.js"></script>
 
 <!-- SKILLS SCRIPT  -->
-<script src="assets/libs/jquery.validate.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/jquery.validate.js"></script>
 
 <!-- if load google maps then load this api, change api key as it may expire for limit cross as this is provided with any theme -->
 <script type="text/javascript" src="../../../../../maps.googleapis.com/maps/api/jsf86d?key=AIzaSyDIKbFTvAyZuB8CuFqSIEVEHmbqfDm6UD8"></script>
 
 <!-- CUSTOM GOOGLE MAP -->
-<script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js"></script>
+<script type="text/javascript" src="<?= base_url(); ?>/assets/libs/gmap/jquery.googlemap.js"></script>
 
 <!-- adding magnific popup js library -->
-<script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="<?= base_url(); ?>/assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
 
 <!-- Owl Carousel  -->
-<script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/owlcarousel/owl.carousel.min.js"></script>
 
 <!-- COUNTDOWN   -->
-<script src="assets/libs/countdown.js"></script>
-<script src="assets/libs/timer/TimeCircles.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/countdown.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/timer/TimeCircles.js"></script>
 
 <!-- Counter JS -->
-<script src="assets/libs/waypoints.min.js"></script>
-<script src="assets/libs/counterup/jquery.counterup.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/waypoints.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/counterup/jquery.counterup.min.js"></script>
 
 <!-- SMOTH SCROLL -->
-<script src="assets/libs/jquery.smooth-scroll.min.js"></script>
-<script src="assets/libs/jquery.easing.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/jquery.smooth-scroll.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/jquery.easing.min.js"></script>
 
 <!-- type js -->
-<script src="assets/libs/typed/typed.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/typed/typed.min.js"></script>
 
 <!-- header parallax js -->
-<script src="assets/libs/header-parallax.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/header-parallax.js"></script>
 
 <!-- instafeed js -->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>-->
-<script src="assets/libs/instafeed.min.js"></script>
+<script src="<?= base_url(); ?>/assets/libs/instafeed.min.js"></script>
 
 <!-- CUSTOM SCRIPT  -->
-<script src="assets/js/custom.script.js"></script>
+<script src="<?= base_url(); ?>/assets/js/custom.script.js"></script>
 
 <!-- <div class="lgx-switcher-loader"></div> -->
 <!-- For Demo Purpose Only// Remove From Live -->
