@@ -158,7 +158,7 @@
                             </div>
                             <div class="lgx-about-content">
                                 <p class="text">
-                                    Deskripsi acara Hi Talks, bantu pikir gaess wkwkwk. Bingung aku :(
+                                    Hi Talks is Media to convey further aspirations from students for better realization.
                                 </p>
                                 <div class="about-date-area">
                                     <h4 class="date"><span>27</span></h4>
@@ -194,7 +194,7 @@
                     <div class="col-xs-12">
                         <div class="lgx-heading lgx-heading-white">
                             <h2 class="heading">Who’s Speaking</h2>
-                            <h3 class="subheading">Welcome to the dedicated to building remarkable Speakers!</h3>
+                            <!-- <h3 class="subheading">Welcome to the dedicated to building remarkable Speakers!</h3> -->
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker1.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mas-fathil.jpeg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
                                         <h3 class="title">Fathil Arham</h3>
@@ -216,10 +216,10 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker2.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mbak-farah.jpg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
-                                        <h3 class="title">Farah L Oktarina</h3>
+                                        <h3 class="title">Farah Luthfi Oktarina</h3>
                                         <h4 class="subtitle">Frontend Developer at MTARGET</h4>
                                     </div>
                                 </figcaption>
@@ -229,11 +229,11 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/speaker3.jpg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mbak-rosa.jpeg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
                                         <h3 class="title">Rosa Paramitha</h3>
-                                        <h4 class="subtitle">DSC Lead Chapter Udinus</h4>
+                                        <h4 class="subtitle">DSC Lead Chapter Udinus (Moderator)</h4>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -325,8 +325,8 @@
                     <!--//footer-area-->
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Contact Us </h3>
-                        <p>0812-3456-7890 (Nama)</p>
-                        <p>0812-3456-7890 (Nama)</p>
+                        <p>0853-2662-9159 (Akbar)</p>
+                        <p>0813-9180-5391 (Ifa)</p>
                     </div>
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Social Connection</h3>
