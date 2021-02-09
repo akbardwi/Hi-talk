@@ -326,7 +326,7 @@
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Contact Us </h3>
                         <p>0853-2662-9159 (Akbar)</p>
-                        <p>0813-9180-5391 (Ifa)</p>
+                        <p>0813-9180-5391 (Arifa)</p>
                     </div>
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Social Connection</h3>
