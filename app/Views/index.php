@@ -174,7 +174,7 @@
                     </div>
                     <div class="col-sm-12 col-md-5">
                         <div class="lgx-about-img-sp">
-                            <img src="<?= base_url(); ?>/assets/img/poster.jpeg" alt="poster">
+                            <img src="<?= base_url(); ?>/assets/img/poster.png" alt="poster">
                         </div>
                     </div>
                 </div>
