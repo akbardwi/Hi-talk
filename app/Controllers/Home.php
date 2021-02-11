@@ -30,7 +30,7 @@ class Home extends BaseController{
             if($peserta->countAllResults() <= 100){
                 if($check_email){
                     session()->setFlashdata('error', 'Email sudah terdaftar');
-                    return redirect()->to(base_url());
+                    return redirect()->to(base_url()."/#registration");
                 } else {
                     $peserta = [
                         'nama'      => $nama,
@@ -50,7 +50,7 @@ class Home extends BaseController{
                         if($batas >= $sekarang){
                             $model->tambah($peserta);
 							session()->setFlashdata('success', 'Terima kasih telah mendaftar. Nantikan informasi dari kami yang akan dikirim ke email Anda.');
-							return redirect()->to(base_url());                       
+							return redirect()->to(base_url()."/#registration");                       
                         } else {
                             session()->setFlashdata('inputs', $this->request->getPost());
                             session()->setFlashdata('error', 'Mohon maaf, waktu pendaftaran sudah ditutup.');
@@ -61,7 +61,7 @@ class Home extends BaseController{
             } else {
                 session()->setFlashdata('inputs', $this->request->getPost());
                 session()->setFlashdata('error', 'Mohon maaf, kuota pendaftaran sudah penuh.');
-                return redirect()->to(base_url());
+                return redirect()->to(base_url()."/#registration");
             }
 		} else {
 			return redirect()->to(base_url());
