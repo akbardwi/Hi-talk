@@ -54,7 +54,7 @@ class Home extends BaseController{
                         } else {
                             session()->setFlashdata('inputs', $this->request->getPost());
                             session()->setFlashdata('error', 'Mohon maaf, waktu pendaftaran sudah ditutup.');
-                            return redirect()->to(base_url());
+                            return redirect()->to(base_url()."/#registration");
                         }
                     }
                 }

@@ -295,10 +295,10 @@
                             <div class="lgx-registration-form">
                                 <form action="<?= base_url("home/registration");?>" method="post">
                                     <?= csrf_field(); ?>
-                                    <input name="nama" class="wpcf7-form-control form-control" placeholder="Your Full Name" type="text" required>
-                                    <input name="email" class="wpcf7-form-control form-control" placeholder="Your E-mail" type="email" required>
-                                    <input name="institution" class="wpcf7-form-control form-control" placeholder="Your Institution" type="text" required>
-                                    <input name="hp" class="wpcf7-form-control form-control" placeholder="Mobile Number/WhatsApp" type="number" required>
+                                    <input name="nama" class="wpcf7-form-control form-control" placeholder="Your Full Name" type="text" <?php if(isset($inputs)){ ?> value="<?php echo $inputs['nama']; ?>" <?php } ?>  required>
+                                    <input name="email" class="wpcf7-form-control form-control" placeholder="Your E-mail" type="email" <?php if(isset($inputs)){ ?> value="<?php echo $inputs['email']; ?>" <?php } ?> required>
+                                    <input name="institution" class="wpcf7-form-control form-control" placeholder="Your Institution" type="text" <?php if(isset($inputs)){ ?> value="<?php echo $inputs['institution']; ?>" <?php } ?> required>
+                                    <input name="hp" class="wpcf7-form-control form-control" placeholder="Mobile Number/WhatsApp" type="number" <?php if(isset($inputs)){ ?> value="<?php echo $inputs['hp']; ?>" <?php } ?> required>
                                     <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
                                 </form>
                             </div>
