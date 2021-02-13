@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <ul class="nav navbar-nav lgx-nav navbar-right">
-                            <li><a class="lgx-scroll" href="#lgx-speakers">Home</a></li>
+                            <li><a class="lgx-scroll" href="https://hmtiudinus.org/">Home</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </nav>
