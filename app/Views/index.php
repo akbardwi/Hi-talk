@@ -82,11 +82,11 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <!-- <div class="lgx-logo">
+                        <div class="lgx-logo">
                             <a href="index-2.html" class="lgx-scroll">
-                                <img src="<?= base_url(); ?>/assets/img/logo.png" alt="Emeet Logo"/>
+                                <img src="<?= base_url(); ?>/assets/img/logo.png" alt="Hi-Talk Logo"/>
                             </a>
-                        </div> -->
+                        </div>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <div class="lgx-nav-right navbar-right">
