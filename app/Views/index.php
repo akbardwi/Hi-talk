@@ -83,7 +83,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="lgx-logo">
-                            <a href="index-2.html" class="lgx-scroll">
+                            <a href="<?= base_url(); ?>" class="lgx-scroll">
                                 <img src="<?= base_url(); ?>/assets/img/logo.png" alt="Hi-Talk Logo"/>
                             </a>
                         </div>
