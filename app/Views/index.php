@@ -118,16 +118,16 @@
                             <div class="lgx-banner-info-area">
                                 <div class="lgx-banner-info-circle">
                                     <div class="info-circle-inner">
-                                        <h3 class="date"><b class="lgx-counter">27</b> <span>February</span></h3>
+                                        <h3 class="date"><b class="lgx-counter">1</b> <span>May</span></h3>
                                         <div class="lgx-countdown-area">
                                             <!-- Date Format :"Y/m/d" || For Example: 1017/10/5  -->
-                                            <div id="lgx-countdown" data-date="2021/02/27"></div>
+                                            <div id="lgx-countdown" data-date="2021/05/01"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="lgx-banner-info"> <!--lgx-banner-info-center lgx-banner-info-black lgx-banner-info-big lgx-banner-info-bg--> <!--banner-info-margin-->
-                                    <h3 class="subtitle">Hi Talks Series #1:</h3>
-                                    <h2 class="title">CHALLENGE AND OPPORTUNITY OF BECOMING WEB DEVELOPER</h2>
+                                    <h3 class="subtitle">Hi Talks Series #2:</h3>
+                                    <h2 class="title">HOW TO DEVELOP MANAGING, AND COMMUNICATING PRODUCT</h2>
                                     <h3 class="location"><i class="fa fa-map-marker"></i> Zoom Meeting.</h3>
                                 </div>
                             </div>
@@ -161,8 +161,8 @@
                                     Hi Talks is Media to convey further aspirations from students for better realization.
                                 </p>
                                 <div class="about-date-area">
-                                    <h4 class="date"><span>27</span></h4>
-                                    <p><span>February 2021</span> Zoom Meeting</p>
+                                    <h4 class="date"><span>1</span></h4>
+                                    <p><span>May 2021</span> Zoom Meeting</p>
                                 </div>
 
                                 <!-- <div class="section-btn-area">
@@ -325,8 +325,8 @@
                     <!--//footer-area-->
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Contact Us </h3>
-                        <p>0853-2662-9159 (Akbar)</p>
-                        <p>0813-9180-5391 (Arifa)</p>
+                        <p>0858-9300-3303 (Syifa)</p>
+                        <p>0878-2435-9356 (Dio)</p>
                     </div>
                     <div class="lgx-footer-single">
                         <h3 class="footer-title">Social Connection</h3>
