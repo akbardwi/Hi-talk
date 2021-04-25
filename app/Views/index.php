@@ -56,6 +56,25 @@
 
     <!-- MODERNIZER CSS  -->
     <script src="<?= base_url(); ?>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+
+    @media screen and (min-width:800px){
+        .tengah{
+            margin-left: auto;
+            margin-right: auto;
+            width: 350px;
+            height: 417px;
+        }
+    }
+    @media screen and (max-width:800px){
+        .tengah{
+            margin-left: auto;
+            margin-right: auto;
+            padding:15px;
+        }
+    }
+    </style>
+
 </head>
 
 <body class="home">
@@ -200,40 +219,14 @@
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="tengah">
                         <div class="lgx-single-speaker2 lgx-single-speaker3">
                             <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mas-fathil.jpeg" alt="speaker"/></a>
+                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mas_husein.jpeg" alt="speaker"/></a>
                                 <figcaption>
                                     <div class="speaker-info">
-                                        <h3 class="title">Fathil Arham</h3>
-                                        <h4 class="subtitle">Web Developer</h4>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker2 lgx-single-speaker3">
-                            <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mbak-farah.jpg" alt="speaker"/></a>
-                                <figcaption>
-                                    <div class="speaker-info">
-                                        <h3 class="title">Farah Luthfi Oktarina</h3>
-                                        <h4 class="subtitle">Frontend Developer at MTARGET</h4>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker2 lgx-single-speaker3">
-                            <figure>
-                                <a class="profile-img"><img src="<?= base_url(); ?>/assets/img/speakers/mbak-rosa.jpeg" alt="speaker"/></a>
-                                <figcaption>
-                                    <div class="speaker-info">
-                                        <h3 class="title">Rosa Paramitha</h3>
-                                        <h4 class="subtitle">DSC Lead Chapter Udinus (Moderator)</h4>
+                                        <h3 class="title">Husein indra kusuma</h3>
+                                        <h4 class="subtitle">It project manager</h4>
                                     </div>
                                 </figcaption>
                             </figure>
