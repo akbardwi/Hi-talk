@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="lgx-banner-info"> <!--lgx-banner-info-center lgx-banner-info-black lgx-banner-info-big lgx-banner-info-bg--> <!--banner-info-margin-->
                                     <h3 class="subtitle">Hi Talks Series #2:</h3>
-                                    <h2 class="title">HOW TO DEVELOP MANAGING, AND COMMUNICATING PRODUCT</h2>
+                                    <h2 class="title">HOW TO DEVELOP AND MANAGING A PROJECT</h2>
                                     <h3 class="location"><i class="fa fa-map-marker"></i> Zoom Meeting.</h3>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-sm-12 col-md-5">
                         <div class="lgx-about-img-sp">
-                            <img src="<?= base_url(); ?>/assets/img/poster.png" alt="poster">
+                            <img src="<?= base_url(); ?>/assets/img/poster2.jpeg" alt="poster">
                         </div>
                     </div>
                 </div>
