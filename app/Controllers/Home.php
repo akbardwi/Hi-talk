@@ -27,7 +27,7 @@ class Home extends BaseController{
             $check_email= $model->check_email($email);
             $db      	= \Config\Database::connect();
             $peserta  	= $db->table('peserta');
-            if($peserta->countAllResults() <= 100){
+            if($peserta->countAllResults() < 150){
                 if($check_email){
                     session()->setFlashdata('error', 'Email sudah terdaftar');
                     return redirect()->to(base_url()."/#registration");
@@ -45,12 +45,24 @@ class Home extends BaseController{
                         session()->setFlashdata('errors', $this->form_validation->getErrors());
                         return redirect()->to(base_url());
                     } else {
-                        $batas = strtotime(date("26-02-2021 10:00:00"));
+                        $batas = strtotime(date("30-04-2021 10:00:00"));
                         $sekarang = strtotime(date("d-m-Y H:i:s"));
                         if($batas >= $sekarang){
-                            $model->tambah($peserta);
-							session()->setFlashdata('success', 'Terima kasih telah mendaftar. Nantikan informasi dari kami yang akan dikirim ke email Anda.');
-							return redirect()->to(base_url()."/#registration");                       
+                            $email_smtp = \Config\Services::email();
+                            $email_smtp->setFrom("hmti@orma.dinus.ac.id", "HMTI UDINUS");
+                            $email_smtp->setTo("$email");
+                            $email_smtp->setSubject("Konfirmasi Pendaftaran Peserta Hi-Talk Series #2");
+                            $email_smtp->setMessage("<div>Halo, $nama</div><div><br /></div><div>Terimakasih telah mendaftar sebagai Peserta di acara Hi-Talk Series #2. Untuk para peserta diharapkan untuk bergabung kedalam whatsapp group agar mendapatkan informasi-informasi terbaru.</div><div>Berikut link whatsapp group :</div><div><br /></div><div>https://chat.whatsapp.com/LiY0wOz3mE8GgJddd1WdL6</div><div><br /></div><div>Salam, Hi-Talk 2021</div>");
+                            $kirim = $email_smtp->send();
+                            if($kirim){
+                                $model->tambah($peserta);
+                                session()->setFlashdata('success', 'Terima kasih telah mendaftar. Nantikan informasi dari kami yang akan dikirim ke email Anda.');
+                                return redirect()->to(base_url()."/#registration");  
+                            } else {
+                                session()->setFlashdata('inputs', $this->request->getPost());
+                                session()->setFlashdata('error', 'Gagal mengirim email konfirmasi, silahkan coba lagi.');
+                                return redirect()->to(base_url()."/#registration");
+                            }             
                         } else {
                             session()->setFlashdata('inputs', $this->request->getPost());
                             session()->setFlashdata('error', 'Mohon maaf, waktu pendaftaran sudah ditutup.');
